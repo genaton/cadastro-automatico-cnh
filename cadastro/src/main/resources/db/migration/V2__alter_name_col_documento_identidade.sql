@@ -1,0 +1,1 @@
+ALTER TABLE cliente CHANGE contrato_pdf documento_identidade LONGBLOB;

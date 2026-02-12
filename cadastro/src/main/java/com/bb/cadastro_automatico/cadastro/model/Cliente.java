@@ -47,6 +47,6 @@ public class Cliente {
     private String filiacao;
 
     @Lob
-    @Column(name = "contrato_pdf")
-    private byte[] contratoPdf;
+    @Column(name = "documento_identidade")
+    private byte[] documentoIdentidade;
 }
