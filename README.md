@@ -1,10 +1,10 @@
-# Cadastro Automático de CNH
+# Cadastro Automático de Dados de Documento de Identidade e Abertura Automática de Conta-Corrente
 
-Um sistema de cadastro automático para Carteira Nacional de Habilitação (CNH) desenvolvido em Java.
+Um sistema de cadastro automático de dados do Documento de Identidade e abertura automática de conta-corrente desenvolvido em Java.
 
 ## 📋 Descrição
 
-Este projeto implementa uma solução automatizada para o cadastro e processamento de informações da Carteira Nacional de Habilitação, utilizando tecnologias de OCR (Optical Character Recognition) e processamento de imagens.
+Este projeto implementa uma solução automatizada para o cadastro e processamento de informações de Documento de Identificação, utilizando tecnologias de OCR (Optical Character Recognition) e processamento de imagens.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -49,14 +49,26 @@ mvn run
 
 ## 📝 Funcionalidades
 
-- Captura automática de dados de CNH
+- Captura automática de dados de Documento de Identificação
 - Reconhecimento ótico de caracteres (OCR)
 - Validação de informações extraídas
 - Armazenamento seguro de dados
 
 ## 🔧 Configuração
 
-[Adicione informações sobre como configurar o projeto aqui]
+Para rodar a aplicação faça as seguintes alterações e digite os seguintes comandos:
+
+> no mysql crie o schema 'cadastro'
+> em application.properties altere as informações:
+spring.datasource.url=jdbc:mysql://localhost:3306/cadastro
+spring.datasource.username=[usuario]
+spring.datasource.password=[senha_usuario]
+
+> em controller> OcrController na linha 42 altere o local para o arquivo tessdata> por.traineddata
+tesseract.setDatapath("[local do arquivo]");
+
+> cd .\cadastro\
+> spring-boot:run
 
 ## 📚 Documentação
 
