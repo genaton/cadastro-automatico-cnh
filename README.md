@@ -82,7 +82,12 @@ Para mais informações sobre como contribuir ou usar o projeto, consulte a docu
 
 Este projeto não possui licença especificada. Consulte a política de uso antes de utilizar.
 
-## 📞 Contato e Suporte
+👨‍👩‍👧‍👦 Equipe
+Genaton Alex Goncalves — genaton@bb.com.br
+Carla Aparecida Dutra Naves de Souza Teixeira — cadnst@gmail.com
+Elton Fabiano Uramoto — eltonuramoto@bb.com.br
+Renan Paschoalotti — renan.paschoalotti@bb.com.br
+Moises Salgado de Morais — moisessalgado@bb.com.br
 
 Para dúvidas ou sugestões, abra uma [issue](https://github.com/genaton/cadastro-automatico-cnh/issues) no repositório.
 
